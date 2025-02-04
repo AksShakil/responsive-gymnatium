@@ -1,0 +1,773 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.title{
+
+    text-align: center;
+}
+
+
+ul,li{
+
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2rem;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+
+p,h2,h4{
+    
+    font-family: ;
+
+}
+
+
+
+.title
+
+    h2{
+        font-family: ;
+        color: ;
+        font-size: ;
+    
+}
+
+
+
+
+
+
+
+/* banner css start */
+
+
+
+
+body{
+
+    position: relative;
+}
+
+
+#banner-part{
+
+
+object-fit: cover;
+object-position: center;
+height: 50rem;
+width: 100%;
+
+
+}
+
+
+#banner-part img{
+
+    width: 100%;
+    height: 44rem;
+}
+
+
+
+#banner-part .img-details{
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+#banner-part .img-details .image button{
+
+    background: #FAFF00;
+    padding: 11px 1.5rem;
+    border-radius: 25px;
+    border: 1px solid #FAFF00;
+    margin-top: 1rem;
+    transition: .4s;
+
+}
+
+
+
+#banner-part .img-details .image button:hover{
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+#banner-part .img-details .image button a{
+
+    letter-spacing: 1px;
+    transition: .4s;
+}
+
+
+#banner-part .img-details .image button:hover a{
+
+    color: black;
+}
+
+
+#banner-part .img-details .image h2 {
+    font-size: 3.2rem;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -28.5rem;
+    /* margin-top: -17rem; */
+    width: 28rem;
+    letter-spacing: 1px;
+}
+
+
+#banner-part .img-details .image{
+
+    height: 500px;
+    
+
+}
+
+
+#banner-part .img-details .image img{
+
+    height: 33rem;
+    width: 71.1rem;
+    
+}
+
+
+.overlay {
+    height: 33.2rem;
+    width: 71.2rem;
+    background: rgb(0, 0, 0, .2);
+    position: absolute;
+    top: 0;
+    left: 12.4rem;
+}
+
+
+
+/* banner css end */
+
+
+
+
+
+/* header css start */
+
+
+
+#banner-part{
+
+    position: relative;
+
+}
+
+
+#header-part{
+
+    height: 50px;
+    width: 100%;
+    padding: 15px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#header-part .top{
+
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin-top: 1rem;
+}
+
+
+#header-part .menu{
+
+    margin-left: 6rem;
+}
+
+
+
+
+#header-part .menu ul{
+
+    margin-left: 25rem;
+}
+
+
+#header-part .menu ul li a{
+
+    color: #fff;
+}
+
+
+
+
+
+/* mobile menu */
+
+#header-part  .mobile-menu{
+
+    
+    font-size: 2rem;
+    float: right;
+    margin-top: -32px;
+    color: white;
+
+}
+
+
+#header-part  .mobile-menu span:hover{
+
+    
+    cursor: pointer;
+}
+
+
+
+
+#header-part  .mobile-menu span {
+    font-size: 3rem;
+    float: right;
+    margin-top: 22px;
+    color: white;
+    display: none;
+}
+
+
+#header-part  .menuitem ul li a {
+    color: white;
+    font-size: 13px;
+    transition: .4s;
+    display: none;
+}
+
+
+
+
+
+
+#header-part  .mobile-menu span{
+
+
+font-size: 2rem;
+float: right;
+margin-top: -32px;
+color: white;
+display: none;
+}
+
+
+#header-part  .mobile-menu span:hover{
+
+
+cursor: pointer;
+}
+
+#header-part  .mobile-menu .overlay{
+
+height: 90rem;
+width: 48.6rem;
+position: fixed;
+top: 0;
+left: 0;
+background: rgb(0, 0, 0,.8);
+z-index: 999;
+transition: .5s;
+overflow-x: hidden;
+width: 0;
+}
+
+
+#header-part  .mobile-menu .overlay-content{
+
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+}
+
+
+#header-part  .mobile-menu .overlay-content a{
+
+
+text-decoration: none;
+display: block;
+}
+
+
+#header-part  .mobile-menu .overlay-content a {
+text-decoration: none;
+display: block;
+font-size: 7rem;
+color: white;
+color: white;
+text-transform: uppercase;
+margin-top: 4rem;
+font-family: 'Outfit', sans-serif;
+z-index: 10000;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* header css end */
+
+
+
+
+
+/* join-part start */
+
+#join-part{
+
+    height: 37rem;
+    width: 100%;
+    background: #000;
+    margin-top: -6rem;
+    padding-top: 12rem;
+
+}
+
+
+#join-part h2{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+#join-part .whole{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+
+#join-part .whole .one{
+
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 2rem 2rem;
+    width: 29rem;
+    margin-top: 2rem;
+    padding-left: 0;
+}
+
+
+#join-part .whole .one .logo{
+
+    margin-top: 1rem;
+}
+
+
+#join-part .whole .one .det{
+
+    margin-left: 1.4rem;
+}
+
+
+#join-part .whole .one h3{
+
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    
+}
+
+
+#join-part .whole .one p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    width: 26rem;
+}
+
+
+
+/* join-part end */
+
+
+
+
+
+
+/* membership css start */
+
+#membership-part{
+
+    height: 56rem;
+    width: 100%;
+    background: #000;
+}
+
+
+#membership-part h2{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 4.5rem;
+
+}
+
+
+#membership-part .all-process{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 3rem;
+
+}
+
+#membership-part .all-process .one{
+
+
+    background: #222222;
+    margin-left: 1px;
+    margin-top: 1px;
+    text-align: center;
+    padding-top: 1.4rem;
+    padding-bottom: 1.5rem;
+    width: 15rem;
+    border-radius: 10px;
+
+}
+
+
+#membership-part .all-process .one h3{
+
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+
+}
+
+
+
+#membership-part .all-process .one .border{
+
+    height: 2px;
+    width: 100%;
+    background: #000;
+    margin-bottom: 1rem;
+}
+
+#membership-part .all-process .one p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    width: 12rem;
+    line-height: 1.1rem;
+    margin-left: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 13px;
+    
+}
+
+
+#membership-part .all-process .one img{
+
+    margin-top: 2px;
+}
+
+
+#membership-part .all-process .one button{
+
+    background: #FAFF00;
+    padding: 6px 30px;
+    border: 1px solid #FAFF00;
+    border-radius: 30px;
+    
+}
+
+
+#membership-part .all-process .one button a{
+
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+/* membership css end */
+
+
+
+/* slider css start */
+
+#slider-part{
+
+
+    height: 500px;
+    width: 100%;
+    background: #000;
+    padding-top: 6rem;
+}
+
+
+#slider-part .det-slider{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+#slider-part .det-slider .left h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+#slider-part .det-slider .left p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+    width: 28rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+}
+
+
+
+
+
+
+#slider-part .det-slider .right img{
+
+    height: 21rem;
+    width: 35rem;
+   
+}
+
+
+/* slider css end */
+
+
+
+
+
+
+
+/* stuff css start */
+
+#stuff-part{
+
+    height: 62rem;
+    width: 100%;
+    background: #000;
+}
+
+
+#stuff-part h2{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+
+#stuff-part .stuff-det{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1ft;
+
+    width: 100%;
+    row-gap: 3.3rem;
+    margin-left: 1.2rem;
+}
+
+
+#stuff-part .stuff {
+    height: 360px;
+    width: 230px;
+    background: #222222;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+#stuff-part .stuff img{
+
+    
+height: 240px;
+position: absolute;
+top: 20px;
+left: 19px;
+
+}
+
+
+#stuff-part .stuff p {
+
+    margin-top: 17.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3.4rem;
+    color: #fff;
+}
+
+#stuff-part .stuff .icons{
+
+    margin-left: 4px;
+}
+
+
+
+#stuff-part .stuff .icons img{
+
+    height: 20px;
+    width: 20px;
+    margin-top: 18rem;
+   
+}
+
+
+
+
+
+
+/* stuff css end */
+
+
+
+
+
+
+
+/* footer css start */
+
+#footer-part{
+
+    height: 10rem;
+    width: 100%;
+    background: #000;
+    padding-top: 5rem;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+#footer-part .parents{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 3rem;
+}
+
+#footer-part .parents .log img{
+
+    margin-bottom: 1.5rem;
+    line-height: 1.3rem;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+
+#footer-part .parents .log p {
+    width: 15rem;
+    letter-spacing: 1px;
+    line-height: 1.3rem;
+    font-size: 14px; 
+    margin-top: -5px;
+}
+
+
+#footer-part .parents .address{
+
+    margin-left: 4rem;
+
+}
+
+#footer-part .parents .address h2{
+
+    margin-bottom: 1rem;
+}
+
+
+#footer-part .parents .address p{
+
+    width: 12rem;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+   
+}
+
+
+#footer-part .parents .contact{
+
+    margin-left: 5rem;
+}
+
+
+#footer-part .parents .contact h2{
+
+    margin-bottom: 1rem;
+}
+
+
+#footer-part .parents .contact p{
+
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+
+
+/* footer css end */
+
+
+
